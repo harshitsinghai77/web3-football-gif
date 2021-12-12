@@ -1,0 +1,12 @@
+[programs.devnet]
+footballgif = "SiaGpVaNrhiae7BE6hNK48BbqKfcxPmuYLceWU8Ub1Y"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/root/.config/solana/id.json"
+
+[scripts]
+test = "node tests/footballgif.js" 
